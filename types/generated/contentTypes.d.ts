@@ -364,11 +364,12 @@ export interface AdminTransferTokenPermission extends Schema.CollectionType {
 
 export interface ApiIntegrationapprovalrequestIntegrationapprovalrequest
   extends Schema.CollectionType {
-  collectionName: 'integrationapprovalrequests';
+  collectionName: 'approvalrequest';
   info: {
     singularName: 'integrationapprovalrequest';
-    pluralName: 'integrationapprovalrequests';
-    displayName: 'integrationapprovalrequest';
+    pluralName: 'approvalrequest';
+    displayName: 'approvalrequest';
+    description: '';
   };
   options: {
     draftAndPublish: true;
